@@ -1,2 +1,2 @@
 # leetcode
-Leetcode做题记录，请各位多多指教
+我的Leetcode做题记录，请大家多多指教
