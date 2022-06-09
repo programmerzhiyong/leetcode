@@ -1,6 +1,6 @@
 package leetcode.problem_206;
 
-import leetcode.definition.ListNode;
+import definition.ListNode;
 
 public class Solution {
 //    public ListNode reverseList(ListNode head) {

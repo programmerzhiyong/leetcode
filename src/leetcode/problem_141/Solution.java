@@ -1,6 +1,6 @@
 package leetcode.problem_141;
 
-import leetcode.definition.ListNode;
+import definition.ListNode;
 
 public class Solution {
     public static void main(String[] args) {

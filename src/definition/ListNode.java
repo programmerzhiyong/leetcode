@@ -1,4 +1,4 @@
-package leetcode.definition;
+package definition;
 
 public class ListNode {
     public int val;
