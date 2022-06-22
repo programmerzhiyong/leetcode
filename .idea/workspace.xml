@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32bbfd61-25cf-474c-974f-8089864df31b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/definition/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problem_1108/f1/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problem_513/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/definition/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/problem_141/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problem_141/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/problem_206/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problem_206/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/problem_1037/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problem_1037/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/problem_155/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problem_155/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/problem_20/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problem_20/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/problem_283/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problem_283/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -41,6 +46,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/harris/workspace/IdeaProjects/leetcode&quot;,
@@ -52,11 +58,11 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.16699219&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.leetcode.definition.Test">
+  <component name="RunManager" selected="Application.leetcode.problem_20.Solution">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.demo.Main" />
       <module name="Leetcode" />
@@ -124,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode.problem_20.Solution" />
         <item itemvalue="Application.leetcode.definition.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.leetcode.definition.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.leetcode.problem_20.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +164,13 @@
       <workItem from="1654572162461" duration="450000" />
       <workItem from="1654586393187" duration="4970000" />
       <workItem from="1654748000208" duration="494000" />
-      <workItem from="1654787931434" duration="600000" />
+      <workItem from="1654787931434" duration="1766000" />
+      <workItem from="1654789874561" duration="684000" />
+      <workItem from="1654831611930" duration="765000" />
+      <workItem from="1654954075537" duration="1492000" />
+      <workItem from="1655127016713" duration="1652000" />
+      <workItem from="1655629621409" duration="3854000" />
+      <workItem from="1655876662714" duration="454000" />
     </task>
     <servers />
   </component>

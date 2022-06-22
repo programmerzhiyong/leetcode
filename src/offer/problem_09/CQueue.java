@@ -3,31 +3,31 @@ package offer.problem_09;
 import java.util.Deque;
 import java.util.LinkedList;
 
-public class CQueue {
-    private Deque<Integer> deque1;
-    private Deque<Integer> deque2;
+class MinStack {
+    Deque<Integer> xStack;
+    Deque<Integer> minStack;
 
-    public CQueue() {
-        deque1 = new LinkedList<>();
-        deque2 = new LinkedList<>();
+    public MinStack() {
+        xStack = new LinkedList<Integer>();
+        minStack = new LinkedList<Integer>();
+        minStack.push(Integer.MAX_VALUE);
     }
 
-    public void appendTail(int value) {
-        deque1.push(value);
+    public void push(int x) {
+        xStack.push(x);
+        minStack.push(Math.min(minStack.peek(), x));
     }
 
-    public int deleteHead() {
-        if (deque2.isEmpty()) {
-            while (!deque1.isEmpty()) {
-                deque2.push(deque1.pop());
-            }
-        }
+    public void pop() {
+        xStack.pop();
+        minStack.pop();
+    }
 
-        if (deque2.isEmpty()) {
-            return -1;
-        } else {
-            int deleteItem = deque2.pop();
-            return deleteItem;
-        }
+    public int top() {
+        return xStack.peek();
+    }
+
+    public int min() {
+        return minStack.peek();
     }
 }
