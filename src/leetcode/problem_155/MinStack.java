@@ -36,7 +36,7 @@ public class MinStack {
 
     public void checkLength() {
         if (index >= stack.length - 1) {
-            stack = Arrays.copyOf(stack, stack.length 2);
+//            stack = Arrays.copyOf(stack, stack.length 2);
         }
     }
 }
